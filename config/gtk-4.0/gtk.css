@@ -1,0 +1,49 @@
+@import 'colors.css';
+
+/* betternautilus: black file pane, visible selections */
+.view,
+.content-view,
+.nautilus-window .view,
+.nautilus-window .content-view,
+listview,
+gridview,
+columnview,
+scrolledwindow > viewport {
+  background: #000000;
+  background-color: #000000;
+  color: #eeeeee;
+}
+
+.view:hover,
+listview row:hover,
+gridview child:hover,
+columnview row:hover {
+  background-color: #111111;
+}
+
+.view:selected,
+.view:selected:focus,
+row:selected,
+row:selected:focus,
+cell:selected,
+flowboxchild:selected,
+gridview child:selected,
+gridview child:selected:focus,
+listview row:selected,
+listview row:selected:focus,
+columnview row:selected,
+columnview row:selected:focus {
+  background: #1e5eff;
+  background-color: #1e5eff;
+  color: #ffffff;
+}
+
+.view:selected label,
+row:selected label,
+flowboxchild:selected label,
+gridview child:selected label,
+listview row:selected label,
+columnview row:selected label {
+  color: #ffffff;
+}
+

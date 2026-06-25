@@ -1,0 +1,43 @@
+@import 'colors.css';
+
+/* betternautilus: black file pane, visible selections */
+.view,
+.content-view,
+treeview,
+iconview,
+list,
+scrolledwindow > viewport {
+  background: #000000;
+  background-color: #000000;
+  color: #eeeeee;
+}
+
+.view:hover,
+treeview:hover,
+iconview:hover,
+list row:hover {
+  background-color: #111111;
+}
+
+.view:selected,
+.view:selected:focus,
+row:selected,
+row:selected:focus,
+cell:selected,
+treeview:selected,
+treeview:selected:focus,
+iconview:selected,
+iconview:selected:focus,
+list row:selected,
+list row:selected:focus {
+  background: #1e5eff;
+  background-color: #1e5eff;
+  color: #ffffff;
+}
+
+.view:selected label,
+row:selected label,
+list row:selected label {
+  color: #ffffff;
+}
+
