@@ -1,4 +1,4 @@
-# betternautilus
+# Dark Nautilus on i3
 
 Reproducible Nautilus styling for an i3/GTK setup:
 
@@ -17,7 +17,7 @@ This is intentionally user-local. It writes only under `~/.config/gtk-*` and
 ```
 
 The installer backs up every existing target file before modifying it. Backups
-are stored next to the original file with a timestamped `.betternautilus.bak.*`
+are stored next to the original file with a timestamped `.dark-nautilus-on-i3.bak.*`
 suffix.
 
 After installation, Nautilus is restarted if it is already running.

@@ -15,6 +15,6 @@ if pgrep -x nautilus >/dev/null 2>&1; then
   nautilus -q >/dev/null 2>&1 || true
 fi
 
-echo "betternautilus removed."
-echo "Restore one of the .betternautilus.bak.* files manually if needed."
+echo "Dark Nautilus on i3 removed."
+echo "Restore one of the .dark-nautilus-on-i3.bak.* files manually if needed."
 

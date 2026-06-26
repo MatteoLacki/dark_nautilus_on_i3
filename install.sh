@@ -7,7 +7,7 @@ timestamp=$(date +%Y%m%d-%H%M%S)
 backup_if_exists() {
   target=$1
   if [ -e "$target" ]; then
-    cp "$target" "$target.betternautilus.bak.$timestamp"
+    cp "$target" "$target.dark-nautilus-on-i3.bak.$timestamp"
   fi
 }
 
@@ -38,6 +38,6 @@ if pgrep -x nautilus >/dev/null 2>&1; then
   nautilus -q >/dev/null 2>&1 || true
 fi
 
-echo "betternautilus installed."
+echo "Dark Nautilus on i3 installed."
 echo "Open Files/Nautilus again to use the new styling."
 
